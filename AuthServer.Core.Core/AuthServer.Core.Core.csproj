@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AuthServer.Core.Shared\AuthServer.Core.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
